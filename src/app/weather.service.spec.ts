@@ -11,7 +11,7 @@ describe('WeatherComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
-        WeatherComponent, // ✅ Standalone component
+        WeatherComponent, 
       ],
       providers: [
         provideHttpClient(),       
