@@ -26,12 +26,16 @@ git clone  https://bitbucket.org/voxloud/angular-hw.git
 cd weather-dashboard
 npm install
 ng serve
-
-For test
-
-ng test 
 ```
 
+---
+
+
+### 🔧 For test
+
+```bash
+ng test
+```
 ---
 
 ## 🛠️ Technologies Used
