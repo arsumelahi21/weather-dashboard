@@ -65,6 +65,6 @@ ng test
 * [x] Loading indicators + error handling
 * [x] `localStorage` for city persistence
 * [x] Unit tests implemented
-* [x] Hosted on GitHub with SUBMISSION.md + setup guide
+* [x] Hosted on GitHub with README.md + setup guide
 
 ---
