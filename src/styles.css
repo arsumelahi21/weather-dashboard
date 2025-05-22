@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: your own global styles */
+
+
+.input {
+    @apply border p-2 rounded w-full;
+  }
+  .btn {
+    @apply bg-blue-500 text-white p-2 rounded;
+  }
+  .btn-danger {
+    @apply bg-red-500 text-white p-2 rounded;
+  }
+  .card {
+    @apply bg-white shadow p-4 rounded;
+  }
+
+  @layer utilities {
+    .animate-fade-in {
+      @apply transition-opacity duration-700 opacity-0;
+      animation: fadeIn 0.8s forwards;
+    }
+  
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  }
