@@ -17,7 +17,7 @@ This Angular 17 standalone application, **Weather Dashboard**, provides real-tim
 Use this repository as a starting point for your journey:
 
 * 📄 **README**: Setup instructions and API key guidance included
-* 🔐 **API Key**: Requires a free OpenWeatherMap API key. available in `weather.service.ts` for now. We can move it to .env for prodution level.
+* 🔐 **API Key**: Requires a free OpenWeatherMap API key. available in `weather.service.ts` for now. We can move it to .env for production level.
 
 ### 🔧 Quick Setup
 
