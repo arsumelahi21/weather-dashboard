@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { WeatherComponent } from './weather.component';
 import { provideHttpClient } from '@angular/common/http';
 import { provideHttpClientTesting } from '@angular/common/http/testing';
-import { WeatherService } from '../weather.service'; // make sure this path is correct
+import { WeatherService } from '../weather.service';
 
 describe('WeatherComponent', () => {
   let component: WeatherComponent;
